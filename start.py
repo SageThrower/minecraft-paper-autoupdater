@@ -14,7 +14,7 @@ SCRIPT_FILE = "start.sh"
 # If you need windows support (Idk why) edit the name above to make it end in .bat (And also edit the script (duh))
 START_SH_COMMAND = """
 #!/bin/bash
-java -Xmx2G -jar [paperFile]
+java -Xmx2G -jar [paperFile] -nogui
 """.strip()
 
 
